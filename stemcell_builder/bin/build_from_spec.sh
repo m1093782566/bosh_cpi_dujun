@@ -7,6 +7,7 @@ base_dir=$(readlink -nf $(dirname $0)/..)
 stages_dir=$base_dir/stages
 
 mnt=$(echo "$1" | sed -e 's#/*$##')
+echo mnt:$mnt
 spec=$2
 settings_file=$3
 

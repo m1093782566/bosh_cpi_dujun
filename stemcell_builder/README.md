@@ -68,7 +68,7 @@ missing settings, this will create a build from beginning to end. It
 uses the temporary directory in `$work_dir` as working directory and
 executes the stages specified in `$specification_file` in order.
 
-### Incremental build
+### Incremental build      #zengliang
 
 When iterating on a build, it can be very costly to require a full build
 from beginning to end on every change. This is why the stemcell builder
@@ -110,7 +110,7 @@ backported from Ubuntu 11.04. Switch to this kernel by installing
 
 [btrfs-deb]: https://launchpad.net/ubuntu/precise/+package/btrfs-tools
 
-#### Creating a btrfs filesystem
+#### Creating a btrfs filesystem    #btrfs is just a type of filesystem
 
 Next, create a btrfs filesystem. The following will create a 10GB btrfs
 mount via a loopback device:
