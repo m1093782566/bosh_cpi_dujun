@@ -1,0 +1,4 @@
+work_dir=/tmp/mnt
+specification_file=spec/stemcell-aws-ubuntu.spec
+settings_file=etc/settings.bash
+$ sudo bin/build_from_spec.sh $work_dir $specification_file $settings_file
